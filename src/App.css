@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+html, body {
+  width: 100%;
+  font-family: 'Questrial',
+  sans-serif;
+
+}
+.App {
+  min-height: 100vh;
+  color: rgb(104, 99, 99);
+  font-family: 'Questrial',
+  sans-serif;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  
+}
+.navbar-inverse  {
+  background-color: #7a06ee;
+  border: none;
+  margin-bottom: 0px;
+  
+}
+.navbar-inverse a{
+  background-color: #7a06ee;
+  color: white;
+  border: none;
+
+
+}
+.navbar-inverse img {
+  width :40px;
+  height: 40px;
+  margin-top: -9px;
+  
+}
+.Main .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.Main .intro { 
+  height: 90vh;
+  width: 100vw;
+  margin-top: 0%;
+  text-align: center;
+  background-image: url('./comps/imgs/img3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  
+}
+
+
+.Main .intro .centered h1 {
+  color: #7a06ee;
+  text-shadow: #746d74 5px 3px 19px;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.Main button a {
+  background-color: #f27324;
+  padding: 10px;
+  border: none;
+}
+
+.Main button  {
+  color: #7a06ee;
+  border: none;
+  padding: 7px;
+  background-color: transparent;
+}
+
+.Main button:hover {
+  background-color: white;
+  color: #7a06ee;
+  border: 1px solid #7a06ee;
+  padding: 5px;
+}
+.Main button a:hover {
+  background-color: white;
+  color: #7a06ee;
+  border: none;
+}
+
+.Gallery {
+  text-align: center;
+  margin-bottom: 8rem;
+  margin-top: 7rem;
+
+}
+
+.Services {
+  margin-top: 3rem;
+  margin-bottom: 3rem; 
+}
+.Services .card {
+  width: 200px;
+  height: 200px;
+  padding: 1rem;
+  margin: 5rem;
+  color: #f27324;
+  text-shadow: #a09da0 5px 3px 19px;
+}
+.Services .fa{
+  color: #f27324;
+  text-shadow: #a09da0 5px 3px 19px;
+}
+
+.Services .card .nav.fa a {
+  list-style-type: none;
+  font-size: 2.1rem;
+}
+.Services .card .nav li a:hover {
+  border-bottom: none;
+  background-color: transparent;
+  color:#7a06ee;
+ 
+}
+
+.Services h2{
+  color: #7a06ee;
+  font-weight: bold;
+}
+
+
+.Process {
+  margin-top: 5rem;
+}
+.Process span {
+  font-size: 4.5rem;
+  color: #f27324;
+  border: #f27324  3px solid;
+  padding: 2.5rem;
+  border-radius: 50%;
+}
+.Process h2 {
+  color: #7a06ee;
+  text-shadow: #746d74 5px 3px 19px;
+  font-weight: bold;
+}
+.Process .card{
+  background-color:#f2f2f2;
+  box-shadow: #9b989b 4px 6px 30px;
+  margin-bottom: 2rem;
+  padding: 5px;
+  color: #777;
+}
+.Process .caption h3{
+  color: #7a06ee;
+}
+
+
+
+.Gallery h2 {
+  color: #7a06ee;
+  text-shadow: #746d74 5px 3px 19px;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.Gallery button a {
+  background-color: #f27324;
+  padding: 10px;
+  border: none;
+}
+.Gallery .thumbnail {
+  border:none;
+}
+.Gallery button  {
+  background-color: white;
+  color: #7a06ee;
+  border: none;
+}
+
+.Gallery button:hover {
+  background-color: white;
+  color: #7a06ee;
+  border: 1px solid #7a06ee;
+  padding: 5px;
+}
+.Gallery button a:hover {
+  background-color: white;
+  color: #7a06ee;
+  border: none;
+}
+
+.Footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #7a06ee;
+  height: 20vh;
+  color: white;
+}
+.Footer .socialmedia a{
+  display: inline-block;
+  color: white;
+  margin: .5rem;
+
+}
+
+.Footer .socialmedia a:hover {
+  display: block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  margin: .3rem;
+  padding: 8px 3px;
+
+}
+
+
+
+.links {
+  position: fixed;
+  top: 30%;
+  left:92%;
+}
+.links .socialmedia a{
+  color: #f27324;
+  background-color: transparent;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.links .socialmedia a:hover {
+  display: block;
+  background-color: transparent;
+  padding: 8px 3px;
+  border: #f27324 1px solid;
+
+}
+
+
+
+@media(max-width: 1024px){
+  .links {
+    display: none;
+  }
+  
+}
